@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+         * {
+            box-sizing: border-box;
+         }
+         body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+         }
+
+         input {
+            display: inline-block;
+            width: 100%;
+            min-width: 300px;
+            height: 40px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+         }
+
+         input:focus {
+            outline: #ccc 2px solid;
+         }
+
+         .form {
+            background-color: rgb(239, 239, 164);
+            min-height: 300px;
+            min-width: 400px;
+            border-radius: 5px;
+            padding: 20px 10px;
+            margin: 0 auto;
+         }
+
+         .btn {
+            width: fit-content;
+            margin: 0 auto;
+         }
+         .submit:hover {
+            background-color: #ccc;
+            cursor: pointer;
+         }
+         .submit {
+            padding: 10px 30px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="form">
+         <div class="input-group">
+            <input type="email" name="" id="" class="" placeholder="email" />
+         </div>
+         <div class="input-group">
+            <input
+               type="password"
+               name=""
+               id=""
+               class=""
+               placeholder="password"
+            />
+            <!-- <div class="popup">
+               <ul>
+                  <li>password 1</li>
+                  <li>password 2</li>
+               </ul>
+            </div> -->
+         </div>
+         <div class="btn">
+            <button class="submit">Login</button>
+         </div>
+      </div>
+   </body>
+</html>
