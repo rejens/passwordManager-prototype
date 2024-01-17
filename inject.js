@@ -59,11 +59,7 @@ const passwords = [
       email: "rejensraya@gmail.com",
       password: "123456",
    },
-   {
-      website: "https://www.facebook.com/",
-      email: "rejens933@gmail.com",
-      password: "oBgbVJe7PH8zwZF",
-   },
+  
 ];
 
 function fetchPassword() {
